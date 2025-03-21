@@ -45,7 +45,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
                 handleMouseClick(e);
             }
         });
-        this.addKeyListener(this); // Add KeyListener for movement
+        this.addKeyListener(this);
         initializeButtons();
     }
 
